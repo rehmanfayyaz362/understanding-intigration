@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/understanding-intigration/static/css/main.e6c13ad2.css",
-    "main.js": "/understanding-intigration/static/js/main.b3788c06.js",
-    "static/js/488.92b7adc6.chunk.js": "/understanding-intigration/static/js/488.92b7adc6.chunk.js",
+    "main.css": "/understanding-intigration/static/css/main.a5bfaecd.css",
+    "main.js": "/understanding-intigration/static/js/main.d3fbfc52.js",
+    "static/js/488.316ab798.chunk.js": "/understanding-intigration/static/js/488.316ab798.chunk.js",
     "index.html": "/understanding-intigration/index.html",
-    "main.e6c13ad2.css.map": "/understanding-intigration/static/css/main.e6c13ad2.css.map",
-    "main.b3788c06.js.map": "/understanding-intigration/static/js/main.b3788c06.js.map",
-    "488.92b7adc6.chunk.js.map": "/understanding-intigration/static/js/488.92b7adc6.chunk.js.map"
+    "main.a5bfaecd.css.map": "/understanding-intigration/static/css/main.a5bfaecd.css.map",
+    "main.d3fbfc52.js.map": "/understanding-intigration/static/js/main.d3fbfc52.js.map",
+    "488.316ab798.chunk.js.map": "/understanding-intigration/static/js/488.316ab798.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.b3788c06.js"
+    "static/css/main.a5bfaecd.css",
+    "static/js/main.d3fbfc52.js"
   ]
 }
