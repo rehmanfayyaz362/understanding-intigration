@@ -1,70 +1,113 @@
-# Getting Started with Create React App
+Riemann Sum Visualization for Integration Learning
+This project provides an interactive visualization tool for understanding integration through Riemann sums, built with React and modern web technologies.
+Project Overview
+This interactive web application helps visualize the fundamental concept of integration using Riemann sums, specifically demonstrating how to calculate the area under y = x².
+Live Demo: https://rehmanfayyaz362.github.io/understanding-intigration/
+Features
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Interactive sliders to adjust:
 
-## Available Scripts
+Number of rectangles (n) for better approximation
+Width of the integration interval [0, x]
 
+
+Real-time visualization of:
+
+Rectangles approximating the area
+Actual curve (y = x²)
+Individual rectangle dimensions
+
+
+Dynamic calculations showing:
+
+Approximate area (Riemann sum)
+Actual area (∫₀ˣ t² dt = x³/3)
+Error between approximate and actual values
+
+
+
+Getting Started
+This project was bootstrapped with Create React App.
+Prerequisites
+
+Node.js (Download from nodejs.org)
+Git (Download from git-scm.com)
+
+Installation
+bashCopy# Clone the repository
+git clone https://github.com/rehmanfayyaz362/understanding-intigration.git
+
+# Navigate to project directory
+cd understanding-intigration
+
+# Install dependencies
+npm install
+Available Scripts
 In the project directory, you can run:
+npm start
+Runs the app in development mode.
+Open http://localhost:3000 to view it in your browser.
+npm test
+Launches the test runner in interactive watch mode.
+npm run build
+Builds the app for production to the build folder.
+npm run deploy
+Deploys the application to GitHub Pages.
+Educational Value
+Mathematical Concepts Covered
 
-### `npm start`
+Integration Basics
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Visual representation of definite integrals
+Area under curves
+Riemann sum approximation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+Function Analysis
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Quadratic function (y = x²)
+Relationship between function and its integral
+Error analysis in numerical approximation
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Approximation Methods
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Right-hand Riemann sums
+Effect of partition size on accuracy
+Convergence as n increases
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Learning Objectives
+Students will be able to:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Understand how integration calculates area under curves
+Visualize the relationship between rectangle count and accuracy
+Compare approximate and exact integration results
+Explore the effect of interval width on integration
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Technical Implementation
+Built using:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+React for UI components
+SVG for graph visualization
+Tailwind CSS for styling
+Dynamic calculations for real-time updates
 
-## Learn More
+Contributing
+Contributions are welcome! Feel free to:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Fork the repository
+Create your feature branch
+Submit a pull request
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Keywords for Search
+riemann sum, integration visualization, calculus learning tool, area under curve, mathematical approximation, interactive calculus, x squared integration, educational math tool, react math visualization, integration learning, calculus visualization, numerical integration
+Learn More
 
-### Code Splitting
+Riemann Sum on Wikipedia
+React Documentation
+Create React App documentation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+License
+This project is open source and available under the MIT License.
